@@ -1,0 +1,62 @@
+.App {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.chat-container {
+  flex-grow: 1;
+  overflow: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.message-container {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.user {
+  color: gray;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.assistant {
+  color: white;
+  background-color: gray;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-form {
+  display: flex;
+  width: 100%;
+}
+
+.input-form input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input-form button {
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+}
